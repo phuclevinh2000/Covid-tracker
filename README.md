@@ -5,6 +5,9 @@ The main pupose of this project is to tracking the Covid 19 in different country
 # note 
 The application is fully responsive
 
+## Live Demo 
+[Click here](https://covidtrackerphucle.netlify.app/)
+
 ## what technology I used in the application
 - React
 - JavaScript
