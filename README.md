@@ -7,6 +7,7 @@ The application is fully responsive
 
 ## Live Demo 
 [Click here](https://covidtrackerphucle.netlify.app/)
+![image](https://user-images.githubusercontent.com/47014132/128943749-7e5790f9-10cc-44c3-bb5c-488aaa4dc18e.png)
 
 ## How to build and run
 
@@ -29,6 +30,5 @@ Download and install Node.js from this link https://nodejs.org/en/download/
 - Chart JS
 - FlexBox
 
-Or you can run in the link below: 
-![image](https://user-images.githubusercontent.com/47014132/128943749-7e5790f9-10cc-44c3-bb5c-488aaa4dc18e.png)
+
 
