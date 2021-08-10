@@ -1,7 +1,7 @@
 import React from "react";
-import { MapContainer, TileLayer, useMap } from "react-leaflet";
+import { MapContainer, TileLayer, useMap } from 'react-leaflet'
 import "./map.scss";
-// import { showDataOnMap } from "./util";
+import { showDataOnMap } from "../../util";
 
 function Map({ countries, casesType, center, zoom }) {
   function ChangeView({ center, zoom }) {
@@ -9,9 +9,10 @@ function Map({ countries, casesType, center, zoom }) {
     map.setView(center, zoom);
     return null;
   }
+  // console.log(casesType)
   return (
     <MapContainer
-      // casesType={casesType}
+      casesType={casesType}
       className="map"
       center={center}
       zoom={zoom}
@@ -22,7 +23,7 @@ function Map({ countries, casesType, center, zoom }) {
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
-      {/* {showDataOnMap(countries, casesType)} */}
+      {showDataOnMap(countries, casesType)}
     </MapContainer>
   );
 }

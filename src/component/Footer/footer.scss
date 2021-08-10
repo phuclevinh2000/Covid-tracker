@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    .foot {
+        font-size: 17px;
+    }
+    .icon {
+        display: flex;
+
+        .website {
+            display: flex;
+            text-decoration: none;
+            color: black;
+            padding: 3px
+        }
+    }
+}
